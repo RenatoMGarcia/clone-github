@@ -4,12 +4,12 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './components/Header';
 import Profile from './pages/Profile';
 import Repo from './pages/Repo';
+import GlobalStyles from './styles/GlobalStyles';
 
 function App() {
   return (
     <BrowserRouter> 
       <Header />
-
 
       <Routes> 
         <Route path="/" element={<Profile />} />
@@ -18,6 +18,8 @@ function App() {
       </Routes>
 
       {/* <Footer /> */}
+
+      <GlobalStyles />
     </BrowserRouter>
   );
 
