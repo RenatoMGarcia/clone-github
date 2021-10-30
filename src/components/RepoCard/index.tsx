@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Container } from '../Header/styles';
+import { Container, TopSide, RepoIcon, BotSide, StarIcon, ForkIcon } from './styles';
 
 
 
@@ -21,6 +21,8 @@ const RepoCard: React.FC<Props> = ({
     stars,
     forks,
 }) => {
+    const languageClass = language ? language.toLowerCase() : 'other';
+
     return (
         <Container>
             <TopSide>
@@ -33,7 +35,20 @@ const RepoCard: React.FC<Props> = ({
             </TopSide>
 
             <BotSide>
-
+                <ul>
+                    <li>
+                        <div className={`language ${languageClass}`} />
+                        <span>{language}</span>
+                    </li>
+                    <li>
+                        <StarIcon />
+                        <span>{stars}</span>
+                    </li>
+                    <li>
+                        <ForkIcon />
+                        <span>{forks}</span>
+                    </li>
+                </ul>
             </BotSide>
         </Container>
     );
