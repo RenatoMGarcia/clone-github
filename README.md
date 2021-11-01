@@ -13,6 +13,7 @@ Clone do GitHub responsivo para fins educacionais.
 
 + Criar novas rotas com React Router (Completar página de repositórios)
 + Disponibilizar projeto na Nuvem
++ Construção do Back-end para armazenar informações de Login e Senha.
 
 ## Iniciando o projeto
 Após baixar o projeto, você pode abrir o arquivo com seu editor de texto. Caso o arquivo esteja como .zip é necessário extraí-lo.<br />
