@@ -19,8 +19,8 @@ Após baixar o projeto, você pode abrir o arquivo com seu editor de texto. Caso
 
 Abra o terminal e digite o primeiro comando.
 
-1. Run `npm install` or `yarn install`.<br />
+1.  `npm install` ou `yarn install`.<br />
 
 Após baixar a dependências execute o segundo comando.
 
-2. Run `yarn start` and access `http://localhost:3000`.<br />
+2.  `yarn start` e acesse `http://localhost:3000`.<br />
