@@ -1,12 +1,12 @@
 # Meu clone do GitHub!!
 
-Clone do GitHub responsivo para fins educacionais.
+Clone da página de Perfil e Repositórios do GitHub utilizando a biblioteca React para fins educacionais.
 
 ## Tecnologias utilizadas
 
-+ Fetch API
++ Fetch API: Utilizada para comunicação com a API pública do github para busca de dados do repositório.
++ Styled Components: Utilizada para estilização da aplicação escritos em uma mistura de JavaScript com CSS
 + React.js
-+ Styled Components
 + TypeScript
 
 ## Ideias para implementar
