@@ -1,9 +1,7 @@
-<h1 align="center"> Meu clone do GitHub!! </h1>
+# Meu clone do GitHub!!
 
-* [Índice](#índice)
-* [Descrição do Projeto](#descrição-do-projeto)
-* [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
-* [Acesso ao Projeto](#acesso-ao-projeto)
-* [Tecnologias utilizadas](#tecnologias-utilizadas)
-* [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
+Um projeto desenvolvido com React e consumindo a API do GitHub.
+
+> :construction: Projeto em construção :construction:
+
 
