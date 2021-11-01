@@ -22,7 +22,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
-    - name: Build
-      run: |
-        npm install
-        grunt
+   - name: System tests BioDynaMo
+       shell: bash
+       working-directory: build
+       run: |
+         set -x
