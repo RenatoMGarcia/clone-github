@@ -22,12 +22,25 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
-run: |
-        . scl_source enable devtoolset-7 || true
-        . scl_source enable llvm-toolset-6.0 || true
-        . /etc/profile.d/modules.sh || true
-        module load mpi
-        . $INSTALL_DIR/bin/thisbdm.sh
-        git config --system user.name "Test User"
-        git config --system user.email user@test.com
-        xvfb-run -d -s "-screen 0 2560x1440x24" make run-demos
+    steps:
+      - name: Test
+        
+        run: |
+          cat <<EOF > $HOME/subscript.sh
+          #!/bin/sh
+          exit 1
+          EOF
+          chmod +x $HOME/subscript.sh
+          
+          cat <<EOF > test.sh
+          #!/bin/bash
+          $HOME/subscript.sh
+          if [ $? -ne 0 ]; then
+              echo PASS
+          fi;
+          EOF
+          
+          chmod +x ./test.sh
+          echo START
+          source ./test.sh || true
+          echo END
