@@ -4,7 +4,7 @@ Clone da página de Perfil e Repositórios do GitHub utilizando a biblioteca Rea
 
 ## Tecnologias utilizadas
 
-+ Fetch API: Utilizada para comunicação com a API pública do github para busca de dados do repositório.
++ Fetch API: Utilizada para comunicação com a API pública do GitHub para busca de dados.
 + Styled Components: Utilizada para estilização da aplicação escritos em uma mistura de JavaScript com CSS
 + React.js
 + TypeScript
