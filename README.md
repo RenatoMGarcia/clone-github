@@ -23,4 +23,4 @@ Abra o terminal e digite o primeiro comando.
 
 Após baixar a dependências execute o segundo comando.
 
-2.  `yarn start` e acesse `http://localhost:3000`.<br />
+2.  `yarn start` ou `npm start` e acesse `http://localhost:3000`.<br />
