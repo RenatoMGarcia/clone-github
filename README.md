@@ -16,12 +16,11 @@ Clone do GitHub responsivo para fins educacionais.
 + Construção do Back-end para armazenar informações de Login e Senha.
 
 ## Iniciando o projeto
-Após baixar o projeto, você pode abrir o arquivo com seu editor de texto. Caso o arquivo esteja como .zip é necessário extraí-lo.<br />
 
-Abra o terminal e digite o primeiro comando.
+Clone o projeto: https://github.com/RenatoMGarcia/clone-github.git
 
-1.  `npm install` ou `yarn install`.<br />
+Execute os comandos:
 
-Após baixar a dependências execute o segundo comando.
+`npm install` ou `yarn install`.<br />
 
-2.  `yarn start` ou `npm start` e acesse `http://localhost:3000`.<br />
+`yarn start` ou `npm start` e acesse `http://localhost:3000`.<br />
